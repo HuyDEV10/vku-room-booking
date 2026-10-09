@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "VKU Room Booking",
+    "slug": "vku-room-booking",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "vn.edu.vku.roombooking"
+    },
+    "android": {
+      "package": "vn.edu.vku.roombooking"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "VKU Room Booking"
+    },
+    "scheme": "vku-room-booking",
+    "plugins": ["expo-notifications"]
+  }
+}
