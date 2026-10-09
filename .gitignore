@@ -1,0 +1,14 @@
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/android/
+mobile/ios/
+backend/target/
+.env
+.env.local
+*.log
+.DS_Store
+local.properties
+docs/evidence-local/
+mobile/dist-android/
+mobile/dist-ios/

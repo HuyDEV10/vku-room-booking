@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: ${TEST_DB_URL:jdbc:postgresql://localhost:5432/vku_room_booking_test}
+    username: ${DB_USERNAME:vku_booking}
+    password: ${DB_PASSWORD}

@@ -1,0 +1,13 @@
+server:
+  port: ${SERVER_PORT:8081}
+  error:
+    include-message: never
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/vku_room_booking}
+    username: ${DB_USERNAME:vku_booking}
+    password: ${DB_PASSWORD}
+  flyway:
+    enabled: true
+app:
+  cors-origins: ${CORS_ORIGINS:http://localhost:8082,http://localhost:19006}
